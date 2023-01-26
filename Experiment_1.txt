@@ -1,0 +1,10 @@
+
+
+Optimizer : 
+ODE solver
+- scipy.intergrate 패키지 안에 있는
+- LSODE, VODE 안에 있는 Adams 사용 -> implicit method
+- Runge Kutta 보다 낫다고 함. -> 매 단계마다 비선형 최적화 필요로 함 -> 역전파 어렵게 함 -> explicit method
+
+
+
